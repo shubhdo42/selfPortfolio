@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: #11ffee00
+
+}
+
+/* Set the background color to black with 50% opacity */
+.topnav {
+    overflow: hidden;
+    z-index: 1;
+    background-color: #11ffee00
+  }
+  
+  /* Set the top of the navigation bar to be transparent */
+  .topnav:before {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Set the Portfolio class to float left */
+  .Portfolio {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Set the other links to display evenly spaced on the right of middle of the screen */
+  .topnav a:not(.Portfolio) {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #11ffee00
+  }
+
+  .three-scene {
+    z-index: 0;
+  }
+  
+  
